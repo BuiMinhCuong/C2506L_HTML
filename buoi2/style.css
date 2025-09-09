@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+}
+
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.baiviet {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 15px;
+  
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a5193;
+    color: white;
+    margin-top: 20px;
+}
