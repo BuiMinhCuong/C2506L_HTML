@@ -1,0 +1,24 @@
+
+header, footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.trang {
+  display: flex;
+  min-height: 400px;
+}
+.trai {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+.phai {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+}
+footer {
+  margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+
+.anh {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.anh img {
+  width: 200px;
+  height: 150px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
