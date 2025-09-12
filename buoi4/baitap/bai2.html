@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký sự kiện</title>
+    <link rel="stylesheet" href="./bai2.css">
+</head>
+<body>
+
+        <form class="register-form" action="#" method="post">
+   <div class="h"> <h1>Đăng ký sự kiện</h1></div>
+
+    <label for="name">Họ tên</label>
+    <input type="text" id="name" name="name" placeholder="Nhập họ tên" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Nhập email" required>
+
+    <div class="gt">
+    <label>Giới tính : </label>
+    <input type="radio" id="male" name="gender" value="male"> <label for="male">Nam</label>
+    <input type="radio" id="female" name="gender" value="female"> <label for="female">Nữ</label>
+    <input type="radio" id="female" name="gender" value="female"> <label for="female">Khác</label>
+</div>
+
+<div class="st">
+    <label>Sở thích :</label>
+    <input type="checkbox" name="hobby" value="reading"> Đọc sách
+    <input type="checkbox" name="hobby" value="travel"> Du lịch
+    <input type="checkbox" name="hobby" value="music"> Âm nhạc
+</div>
+
+    <label for="country">Quốc gia</label>
+    <select id="country" name="country">
+      <option value="">--Chọn quốc gia--</option>
+      <option value="vn">Việt Nam</option>
+      <option value="us">Mỹ</option>
+      <option value="jp">Nhật Bản</option>
+    </select>
+
+
+    <button type="submit">Đăng ký</button>
+    <input type="reset" value="Nhập lại">
+</form>
+    
+</body>
+</html>
