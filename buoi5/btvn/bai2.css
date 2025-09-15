@@ -1,0 +1,62 @@
+body {
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.item{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.h{
+  text-align: center;
+}
+
+.register-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.register-form input, .register-form textarea, .register-form button {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.register-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
