@@ -1,6 +1,6 @@
 function tai(isFail) {
   return new Promise((resolve, reject) => {
-    thoigian(() => {
+    setTimeout(() => {
       if (isFail) {
         reject("Tải thất bại!");
       } else {
