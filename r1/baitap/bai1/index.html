@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dangky">
+        <h2>Form đăng ký</h2>
+
+        <form id="registerForm" novalidate>
+            <label for="email">Email</label>
+            <input id="email" type="text" placeholder="nhap email">
+            <div class="error" id="emailError"></div>
+
+            <label for="password">Mật khẩu</label>
+            <input id="password" type="password" placeholder="nhap mat khau">
+            <div class="error" id="passwordError"></div>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

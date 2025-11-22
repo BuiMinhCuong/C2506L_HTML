@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f8fa;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.dangky {
+    width: 360px;
+   border: solid 1px;
+    padding: 18px;
+   
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top:6px;
+    border: 1px solid #cfd8dc;
+    font-size: 14px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 14px;
+    border: none;
+    background: blue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
