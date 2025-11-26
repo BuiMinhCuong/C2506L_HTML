@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý Người dùng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Quản lý Người dùng</h2>
+<form id="form-user">
+    <input id="user-name" type="text" placeholder="Tên người dùng" required>
+    <input id="user-email" type="email" placeholder="Email" required>
+    <button type="submit">Thêm người dùng</button>
+</form>
+
+<table id="table-user">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Email</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody id="user-list"></tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
